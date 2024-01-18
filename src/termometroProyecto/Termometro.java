@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Termometro {
 	
 	private float temperaturas[];
-	private int donde;
+	
 	
 	
 	public Termometro() {
@@ -13,7 +13,7 @@ public class Termometro {
 	}
 	@Override
 	public String toString() {
-		return "Termometro [" + Arrays.toString(temperaturas) + " - " + donde + "]";
+		return "Termometro [" + Arrays.toString(temperaturas) +   "]";
 	}
 	
 	
